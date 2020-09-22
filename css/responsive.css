@@ -1,0 +1,32 @@
+/* Small Devices */
+@media only screen and (max-width:767px){
+
+    .header-iphone,.about-iphone,.solution-description,.feature-iphone,.available-now img{
+        display: none;
+ 
+     }
+     .about-whatmate {
+        text-align: justify;
+        text-align-last: center;
+        margin: 45px;
+     }
+     .header-btns {
+         text-align: center;
+         /* margin: 45px; */
+         padding-bottom: 10px;
+     }
+     .left-feature-item,.right-feature-item {
+         text-align: center;
+         padding-right: 0px;
+         padding-left:0px;
+         margin: 45px;
+         margin-top: 10px;
+     }
+}
+/* Small Devices and Tablets Potrait*/
+@media only screen and (max-width:768px){
+    .feature-iphone {
+        display:none;
+    }
+   
+}   
